@@ -1,0 +1,46 @@
+{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dbe9e9;
+  padding: 30px;
+  font-family: Arial;
+}
+/* <defines the body color, spacing and font */
+
+.main {
+  max-width: 1500px;
+  margin: auto;
+}
+
+/* <defines the margins> */
+
+h1 {
+  font-size: 50px;
+}
+
+/* <defines h1 tag attributes> */
+
+.row {
+  margin: 8px -16px;
+}
+
+/* <defines the space around the images> */
+
+.row,
+.row > .column {
+  padding: 2px;
+}
+/* <defines the space around the images> */
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+.content {
+  background-color: #93bebd;
+  padding: 10px;
+}
+/* <defines the background color> */
